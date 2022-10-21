@@ -72,6 +72,11 @@ ul {
   gap: 50px;
   padding-right: 2px;
 }
+.header-contacts-list-link
+{
+  display: flex;
+  align-items: center;
+}
 .description {
   padding-bottom: 0px;
 }
@@ -355,15 +360,18 @@ rgba(47, 48, 58, 0.4); */
 /* Description settings */
 /* SVG-icons */
 .contact-icon-phone {
-  display: inline-flex;
-  width: 10px;
+  display: inline-block;
+  width: 30px;
   height: 16px;
-  margin-right: 10px;
 }
 .contact-icon-mail {
-  display: inline-flex;
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
+  display: inline-block;
+  width: 36px;
+  height: 16px;
+}
+
+}
+.contact-element:hover {
+  stroke: var(--brand-color);
 }
 /* SVG-icons */
