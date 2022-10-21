@@ -65,6 +65,7 @@ ul {
 .header-contacts {
   display: flex;
   justify-self: flex-end;
+  align-items: center;
 }
 .header-contacts-list {
   display: flex;
@@ -352,3 +353,17 @@ rgba(47, 48, 58, 0.4); */
 }
 
 /* Description settings */
+/* SVG-icons */
+.contact-icon-phone {
+  display: inline-flex;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.contact-icon-mail {
+  display: inline-flex;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+/* SVG-icons */
