@@ -200,7 +200,7 @@ a.link {
 }
 .link:active,
 .link:visited {
-  color: currentColor;
+  color: initial;
 }
 .navigation-list-link {
   font-weight: 500;
