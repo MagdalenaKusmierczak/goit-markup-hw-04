@@ -185,8 +185,11 @@ ul {
 /* Logo settings */
 /*  */
 /* Link settings */
-.link a {
+.link {
   text-decoration: none;
+}
+.link a {
+  color: inherit;
 }
 .link:hover,
 .link:focus {
