@@ -3,6 +3,7 @@
   --brand-color: #2196f3;
   --pure-white: #fff;
   --creme-white: #ececec;
+  --grey-icons: #afb1b8;
 }
 
 body {
@@ -104,6 +105,7 @@ ul {
 .team {
   background-color: #f5f4fa;
 }
+
 .team-member {
   background-color: var(--pure-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -261,7 +263,9 @@ ul {
 .address-list,
 .project-list,
 .buttons-portfolio-list,
-.footer-media-list {
+.footer-media-list,
+.team-media-list,
+.clients-list {
   list-style: none;
 }
 .secound-list {
@@ -296,11 +300,17 @@ ul {
   gap: 8px;
   justify-content: center;
 }
-.footer-media-list {
+.footer-media-list,
+.team-media-list {
   display: flex;
   gap: 10px;
   flex-wrap: nowrap;
 }
+.team-media-list {
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
 /* List settings */
 /*  */
 /* Header settings */
@@ -350,7 +360,7 @@ ul {
   text-align: center;
 }
 .teammate-job {
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -387,15 +397,27 @@ ul {
   width: 36px;
   height: 16px;
 }
-.contact-element:hover {
-  stroke: var(--brand-color);
+.contact-element:hover,
+.contact-element:focus {
+  --color4: var(--brand-color);
 }
 .footer-media-icon {
   color: currentColor;
   width: 44px;
   height: 44px;
 }
-.footer-media-icon:hover {
-  fill: var(--brand-color);
+.footer-media-icon:hover,
+.footer-media-icon:focus {
+  --color6: var(--brand-color);
+}
+.team-media-icon {
+  width: 44px;
+  height: 44px;
+  --color5: var(--grey-icons);
+}
+.team-media-icon:hover,
+.team-media-icon:focus {
+  --color5: var(--pure-white);
+  --color6: var(--brand-color);
 }
 /* SVG-icons */
