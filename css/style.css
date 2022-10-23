@@ -188,7 +188,7 @@ ul {
 .link {
   text-decoration: none;
 }
-.link a {
+a.link {
   color: inherit;
 }
 .link:hover,
