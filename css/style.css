@@ -145,7 +145,12 @@ ul {
   display: block;
   width: 100%;
 }
-
+.client {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
 /* Box settings */
 /*  */
 /* Logo settings */
@@ -276,6 +281,7 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 .description-list-paragraf {
   line-height: 1.71;
@@ -310,7 +316,12 @@ ul {
   justify-content: center;
   padding-bottom: 30px;
 }
-
+.clients-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
 /* List settings */
 /*  */
 /* Header settings */
@@ -419,5 +430,27 @@ ul {
 .team-media-icon:focus {
   --color5: var(--pure-white);
   --color6: var(--brand-color);
+}
+.client-logo {
+  width: 100%;
+  height: 100%;
+}
+.client:hover,
+.client:focus {
+  --color1: var(--brand-color);
+  border-color: var(--brand-color);
+}
+.description-element {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: space-around;
+  align-items: center;
+}
+.description-icon {
+  width: 70px;
+  height: 70px;
 }
 /* SVG-icons */
