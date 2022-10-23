@@ -187,6 +187,7 @@ ul {
 /* Link settings */
 .link {
   text-decoration: none;
+  text-decoration-color: currentColor;
 }
 .link:hover,
 .link:focus {
