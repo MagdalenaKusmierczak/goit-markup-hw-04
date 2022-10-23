@@ -195,11 +195,9 @@ ul {
 .current-page {
   color: var(--brand-color);
 }
-.link:after,
 .link:active,
-.link:visited,
-.link:before {
-  color: inherit;
+.link:visited {
+  color: currentColor;
 }
 .navigation-list-link {
   font-weight: 500;
