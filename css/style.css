@@ -207,7 +207,9 @@ a.link {
   letter-spacing: 0.02em;
 }
 .navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list-link:focus,
+.footer-link:hover,
+.footer-link:focus {
   color: var(--brand-color);
 }
 .header-contacts a {
